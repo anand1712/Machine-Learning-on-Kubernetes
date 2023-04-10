@@ -75,9 +75,6 @@ spec:
             - name: http
               containerPort: 5500
               protocol: TCP
-          resources:
-            requests:
-              cpu: "500m"
 
 ---
 apiVersion: v1
